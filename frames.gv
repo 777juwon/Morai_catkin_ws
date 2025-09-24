@@ -1,0 +1,15 @@
+digraph G {
+"base_link" -> "Lidar3D-4"[label="Broadcaster: /multi_static_tf\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1757997615.132 sec old)\nBuffer length: 0.000 sec\n"];
+"map" -> "base_link"[label="Broadcaster: /rosbridge_websocket\nAverage rate: 31.414 Hz\nMost recent transform: 1757997610.894 ( 4.238 sec old)\nBuffer length: 0.764 sec\n"];
+"base_link" -> "camera_link"[label="Broadcaster: /multi_static_tf\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1757997615.132 sec old)\nBuffer length: 0.000 sec\n"];
+"base_link" -> "gps"[label="Broadcaster: /multi_static_tf\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1757997615.132 sec old)\nBuffer length: 0.000 sec\n"];
+"base_link" -> "imu_link"[label="Broadcaster: /multi_static_tf\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1757997615.132 sec old)\nBuffer length: 0.000 sec\n"];
+"base_link" -> "Camera-1"[label="Broadcaster: /rosbridge_websocket\nAverage rate: 31.414 Hz\nMost recent transform: 1757997610.894 ( 4.238 sec old)\nBuffer length: 0.764 sec\n"];
+"base_link" -> "Lidar3D-2"[label="Broadcaster: /rosbridge_websocket\nAverage rate: 31.414 Hz\nMost recent transform: 1757997610.894 ( 4.238 sec old)\nBuffer length: 0.764 sec\n"];
+"base_link" -> "GPS-3"[label="Broadcaster: /rosbridge_websocket\nAverage rate: 31.414 Hz\nMost recent transform: 1757997610.894 ( 4.238 sec old)\nBuffer length: 0.764 sec\n"];
+"base_link" -> "IMU-4"[label="Broadcaster: /rosbridge_websocket\nAverage rate: 31.414 Hz\nMost recent transform: 1757997610.894 ( 4.238 sec old)\nBuffer length: 0.764 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1757997615.132"[ shape=plaintext ] ;
+ }->"map";
+}
