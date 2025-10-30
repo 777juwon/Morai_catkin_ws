@@ -1,4 +1,4 @@
-# 2024 HL FMA - 정적 장애물 회피 기반 자율주행 시스템 (with MORAI)
+# 2025 HL FMA - 정적 장애물 회피 기반 자율주행 시스템 (with MORAI)
 
 ## 📌 시스템 구조 (System Architecture)
 
